@@ -16,3 +16,7 @@ Para cambiar una foto, basta con reemplazar el archivo manteniendo el mismo nomb
 | `victoria.webp` | Silueta entre una nube de magnesio naranja | Cabecera de Veredicto |
 | `descanso.webp` | Atleta durmiendo con luz de luna | Cabecera de Recuperación |
 | `mancuernas.webp` | Mancuernas ligeras y cuaderno | Portada de Adaptación |
+
+## Fotos guía de cada ejercicio (`ejercicios/`)
+
+Una foto por ejercicio principal (19), con el nombre de su id: `ejercicios/pec-deck.webp`, `ejercicios/squat.webp`, etc. Generadas con IA (Figma, modelo gpt-image; tres retocadas con Hugging Face) el 11 nov 2026 con el mismo estilo oscuro y luz naranja. Edwin debe revisar la postura como coach. Las alternativas usan la foto de su ejercicio principal. También son provisionales: sustituir por fotos con licencia antes de Google Play.

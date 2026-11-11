@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#1B1E23"/>
+      <stop offset="1" stop-color="#0D0E10"/>
+    </radialGradient>
+    <linearGradient id="trazo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF9446"/>
+      <stop offset="1" stop-color="#FF6A0D"/>
+    </linearGradient>
+    <filter id="brillo" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <path d="M120 362h120V150h152" fill="none" stroke="url(#trazo)" stroke-width="58" stroke-linecap="round" stroke-linejoin="round" filter="url(#brillo)"/>
+</svg>

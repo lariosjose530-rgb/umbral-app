@@ -1,1 +1,0 @@
-import{A as e}from"./stores-D3B6pnSh.js";async function t(t={}){let n=e.decisions.orderBy(`date`).reverse();return t.exerciseId&&(n=n.filter(e=>e.exerciseId===null||e.exerciseId===t.exerciseId)),t.limit&&(n=n.limit(t.limit)),n.toArray()}async function n(t){return e.decisions.where(`sessionId`).equals(t).sortBy(`date`)}export{t as n,n as t};

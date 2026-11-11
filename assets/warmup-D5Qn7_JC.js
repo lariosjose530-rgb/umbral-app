@@ -1,1 +1,0 @@
-import{J as e,et as t}from"./stores-D3B6pnSh.js";function n(n,r){if(!(n>0))return[];let i=[];for(let a of t){let t=e(n*a.percent,r);t<=0||t>=n||i.some(e=>e.weight===t)||i.push({weight:t,reps:a.reps})}return i}export{n as t};

@@ -1,0 +1,1 @@
+import{H as e}from"./index-CwNi0j31.js";var t=`sesion`;function n(n,r){let i=new URLSearchParams({desde:t,original:r});return`${e.exerciseDetail(n)}?${i.toString()}`}function r(e){let n=e.get(`desde`)===t;return{fromSession:n,originalId:n?e.get(`original`):null}}export{r as n,n as t};

@@ -1,0 +1,1 @@
+var e={brainHistory:!0,nutritionEnergy:!0};function t(e){return e!==!1}function n(n,r){return!e[n]||t(r)}function r(e){return new Date(e.getTime()-48384e5)}function i(e,n,i){if(t(n))return{items:[...e],hidden:0};let a=r(i).getTime(),o=e.filter(e=>new Date(e.date).getTime()>=a);return{items:o,hidden:e.length-o.length}}export{i as n,n as t};

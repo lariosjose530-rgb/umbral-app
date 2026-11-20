@@ -1,0 +1,1 @@
+function e(e,t,n=7){let r=Math.max(1,Math.round(e)),i=Math.max(1,Math.round(t)),a=[],o=0;for(let e=0;e<n;e+=1)e%r===0?(a.push({offset:e,routineDay:o%i}),o+=1):a.push({offset:e,routineDay:null});return a}function t(e){return e.filter(e=>e.routineDay!==null).length}export{t as n,e as t};

@@ -1,0 +1,1 @@
+import{T as e,Z as t,et as n}from"./icons-BHg61_Uy.js";import{r}from"./stores-C0XxveIR.js";import"./data-D4vNK7qb.js";import{t as i}from"./guide-DS7cXhm6.js";import{t as a}from"./MethodGuide-DWaPM1pj.js";var o=n(t(),1),s=e();function c(){let e=r(e=>e.profile?.unit??`lb`);return(0,o.useEffect)(()=>{i()},[]),(0,s.jsx)(a,{mode:`first`,unit:e})}export{c as WelcomePage};

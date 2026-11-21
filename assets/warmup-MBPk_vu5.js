@@ -1,0 +1,1 @@
+import{Ct as e,pt as t}from"./stores-DVlAhsPk.js";function n(n,r){if(!(n>0))return[];let i=[];for(let a of e){let e=t(n*a.percent,r);e<=0||e>=n||i.some(t=>t.weight===e)||i.push({weight:e,reps:a.reps})}return i}export{n as t};

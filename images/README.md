@@ -19,7 +19,7 @@ Para cambiar una foto, basta con reemplazar el archivo manteniendo el mismo nomb
 
 ## Fotos guía de cada ejercicio (`ejercicios/`)
 
-Una foto por ejercicio principal (19), con el nombre de su id: `ejercicios/pec-deck.webp`, `ejercicios/squat.webp`, etc. Generadas con IA (Figma, modelo gpt-image; tres retocadas con Hugging Face) el 11 nov 2026 con el mismo estilo oscuro y luz naranja. Edwin debe revisar la postura como coach. Las alternativas usan la foto de su ejercicio principal. También son provisionales: sustituir por fotos con licencia antes de Google Play.
+Una foto por ejercicio principal (19), con el nombre de su id: `ejercicios/pec-deck.webp`, `ejercicios/squat.webp`, etc. Generadas con IA (Figma, modelo gpt-image; tres retocadas con Hugging Face) el 11 nov 2026 con el mismo estilo oscuro y luz naranja. Edwin debe revisar la postura como coach. 16 alternativas tienen foto propia (`ejercicios/<id>.webp`, Hugging Face Z-Image, 21 nov 2026, mismo estilo); trap-bar-deadlift, single-leg-glute-bridge, leg-press-calf-raise y machine-curl siguen con la del principal porque el modelo no las dibujó bien en 2 intentos. También son provisionales: sustituir por fotos con licencia antes de Google Play.
 
 ## Fotos de la intro (`intro/`)
 
